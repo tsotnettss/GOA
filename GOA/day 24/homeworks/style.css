@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+
+.section1{
+    height: 100vh;
+    background-image: url(images/finance_img_i1140.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 400px;
+    background-color: rgb(255, 185, 32);
+    border-radius: 20px;
+}
+
+
+.userdiv {
+    width: 250px;
+    height: 100px;
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.userdiv div {
+    margin-bottom: 5px;
+}
+
